@@ -76,11 +76,17 @@ git reset <file>
 # Reset to the last committed state
 git reset --hard
 
+# Reset to the last committed state and set-top commit
+git reset --hard Head
+
 # Revert a commit
 git revert <commit_hash>
 
 #Remove untracked changes
 git clean -fd
+
+#Back to Previous commit
+git reset --hard HEAD~1
 ```
 
 
