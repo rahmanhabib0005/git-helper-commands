@@ -78,7 +78,11 @@ git reset --hard
 
 # Revert a commit
 git revert <commit_hash>
+
+#Remove untracked changes
+git clean -fd
 ```
+
 
 ## Stashing Changes
 
