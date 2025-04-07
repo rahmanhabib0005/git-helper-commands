@@ -65,6 +65,9 @@ git pull origin <branch_name>
 
 # Push changes to the remote repository
 git push origin <branch_name>
+
+# Change the Remote URL
+git remote set-url origin NEW_URL
 ```
 
 ## Undoing Changes
